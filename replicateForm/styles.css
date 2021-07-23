@@ -1,0 +1,37 @@
+td {
+    border: 1px solid rgba(75, 75, 75, 0.849);
+}
+
+.text {
+    display: block;
+    width: 97%;
+}
+
+table {
+    width: 420px;
+    border: 1px solid rgba(75, 75, 75, 0.699);
+}
+
+.header {
+    font-weight: bold;
+    background-color: rgba(198, 189, 248, 0.842);
+    text-align: center;
+}
+
+.high-td {
+    height: 32px;
+}
+
+label {
+    margin-left: 2px;
+
+    vertical-align: text-top;
+}
+
+button {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-bottom: 1px solid rgba(73, 73, 73, 0.815);
+    border-left: 1px solid rgba(73, 73, 73, 0.815);
+}

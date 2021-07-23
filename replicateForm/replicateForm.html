@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <link rel="stylesheet" href="./styles.css">
+    <title>4Geeks Academy</title>
+</head>
+
+<body>
+    <form>
+        <table>
+            <tbody>
+                <tr>
+                    <td class="header">Name</td>
+                    <td class="header">Value</td>
+                </tr>
+                <tr>
+                    <td>Name</td>
+                    <td><input class="text" type="text"></td>
+                </tr>
+                <tr>
+                    <td class="high-td">Sex</td>
+                    <td class="container">
+                        <input type="radio" name="sex" value="Male" checked>
+                        <label for="choice1">Male</label><br>
+                        <input type="radio" name="sex" value="Female">
+                        <label for="choice1">Female</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Eye color</td>
+                    <td><select name="eyeColor" id="colors">
+                            <option value="green">green</option>
+                            <option value="blue">blue</option>
+                            <option value="brown">brown</option>
+                            <option value="grey">grey</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="high-td">Check all that apply</td>
+                    <td class="container">
+                        <input type="checkbox" name="features" value="height" checked>
+                        <label for="choice3">Over 6 feet tall</label><br>
+                        <input type="checkbox" name="features" value="weight">
+                        <label for="choice4">Over 200 pounds</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="4">
+                        <label for="description">Describe your athletic ability:</label>
+                        <textarea name="description" id="description" cols="60" rows="10"></textarea>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="4">
+                        <button>Enter my information</button>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </form>
+</body>
+
+</html>
